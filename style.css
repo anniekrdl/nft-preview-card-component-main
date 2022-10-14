@@ -1,0 +1,146 @@
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan : hsl(178, 100%, 50%);
+    --very-dark-blue: hsl(217, 54%, 11%);
+    --dark-blue-card-bg: hsl(216, 50%, 16%);
+    --dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+}
+
+*, a {
+    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--White);
+
+
+ }
+
+ hr {
+    border: 0.01px solid var(--dark-blue-line);
+    background-color: var(--dark-blue-line);
+    border-radius: 60px;
+ }
+
+ body {
+    color: var(--soft-blue);
+    background-color: var(--very-dark-blue);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    
+
+    
+ }
+
+ .container {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+   
+    
+ }
+
+
+ .card {
+    background-color: var(--dark-blue-card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 40px rgba(0, 0, 0, 0.071), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .card h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+
+ .image-big {
+    width: 100%;
+ }
+
+ .paragraph {
+    color: var(--soft-blue);
+    margin-bottom: 10px;
+    line-height: 1.8;
+ }
+
+ .small-info {
+    display: flex;
+    margin: 1em 0;
+    align-items: center;
+
+ }
+
+ .info-left span {
+    height: 100%;
+    font-weight: 400;
+
+    color: var(--cyan);
+
+ }
+
+ .info-right span {
+    font-weight: 300;
+    color: var(--soft-blue);
+ }
+
+ .info-left {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    
+ }
+
+ .info-left img {
+    scale: 0.8;
+    margin-right: 5px;
+ }
+
+ .info-right {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+   
+ }
+
+ .info-right img {
+    margin-right: 5px;
+ }
+
+ .footer {
+    margin-top: 15px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    
+ }
+
+ .footer img {
+    
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 0;
+ }
+
+ .footer span {
+    font-size: 12px;
+    margin-left: 0;
+    color: var(--soft-blue);
+ }
+
+ 
+
+
+ 
